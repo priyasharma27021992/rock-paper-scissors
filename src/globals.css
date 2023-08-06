@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    @apply bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r h-full overflow-x-hidden;
+}
+
+#__next {
+    @apply h-full;
+}
+
+html {
+    @apply h-full;
+}
